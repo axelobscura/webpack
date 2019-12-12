@@ -1,0 +1,25 @@
+{
+  "name": "webpackDev",
+  "version": "1.0.0",
+  "description": "Webpack base use",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelobscura/webpack.git"
+  },
+  "keywords": [],
+  "author": "Axel Obscura Sarzotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelobscura/webpack/issues"
+  },
+  "homepage": "https://github.com/axelobscura/webpack#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "mode": "development"
+}
