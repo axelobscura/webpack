@@ -4,7 +4,7 @@
   "description": "Webpack base use",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,12 @@
   },
   "homepage": "https://github.com/axelobscura/webpack#readme",
   "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "css-loader": "^3.3.2",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
-  },
-  "mode": "development"
+  }
 }
